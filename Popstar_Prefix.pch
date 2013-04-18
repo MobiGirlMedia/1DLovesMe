@@ -1,0 +1,15 @@
+//
+// Prefix header for all source files of the 'Popstar' target in the 'Popstar' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#import "FlurryAnalytics.h"
+//#import "SoundManager.h"
+#import "PopstarAppDelegate.h"
+#import "MKStoreManager.h"
+
+#define kAdSecret @"2a79ea27c279e471f4d180b08d62b00a"
